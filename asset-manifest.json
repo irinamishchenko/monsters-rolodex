@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/monsters-rolodex/static/css/main.37834481.css",
+    "main.js": "/monsters-rolodex/static/js/main.c7512b2d.js",
+    "index.html": "/monsters-rolodex/index.html",
+    "main.37834481.css.map": "/monsters-rolodex/static/css/main.37834481.css.map",
+    "main.c7512b2d.js.map": "/monsters-rolodex/static/js/main.c7512b2d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37834481.css",
+    "static/js/main.c7512b2d.js"
+  ]
+}
