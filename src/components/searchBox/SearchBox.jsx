@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import "./searchBox.css";
 
 const SearchBox = ({ onChange, placeholder, className }) => {
@@ -9,6 +10,12 @@ const SearchBox = ({ onChange, placeholder, className }) => {
       className={className}
     />
   );
+};
+
+SearchBox.propTypes = {
+  onChange: PropTypes.func.isRequired,
+  placeholder: PropTypes.string,
+  className: PropTypes.string,
 };
 
 export default SearchBox;

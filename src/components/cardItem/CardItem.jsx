@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import "./cardItem.css";
 
 const CardItem = ({ monster }) => {
@@ -12,6 +13,14 @@ const CardItem = ({ monster }) => {
       <p>{email}</p>
     </li>
   );
+};
+
+CardItem.propTypes = {
+  monster: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    name: PropTypes.string.isRequired,
+    email: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default CardItem;
